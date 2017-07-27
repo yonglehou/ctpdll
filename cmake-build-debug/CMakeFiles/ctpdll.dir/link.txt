@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libctpdll.so -o libctpdll.so CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o 
