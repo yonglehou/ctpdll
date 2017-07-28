@@ -4,10 +4,10 @@
 CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../enums.h
 CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../ftdc2c_ctp.cpp
 CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../ftdc2c_ctp.h
+CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../linuxapi/ThostFtdcMdApi.h
+CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../linuxapi/ThostFtdcTraderApi.h
+CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../linuxapi/ThostFtdcUserApiDataType.h
+CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../linuxapi/ThostFtdcUserApiStruct.h
 CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../quoter.h
 CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: ../trader.h
-CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: /home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcMdApi.h
-CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: /home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcTraderApi.h
-CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: /home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcUserApiDataType.h
-CMakeFiles/ctpdll.dir/ftdc2c_ctp.cpp.o: /home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcUserApiStruct.h
 

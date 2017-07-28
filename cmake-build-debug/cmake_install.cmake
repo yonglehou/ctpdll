@@ -1,4 +1,4 @@
-# Install script for directory: /home/charles/CLionProjects/ctpdll
+# Install script for directory: /home/charles/sda3/CLionProjects/ctpdll
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/charles/CLionProjects/ctpdll/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

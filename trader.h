@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////
 
 #pragma once
-#include </home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcTraderApi.h>
+#include </home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcTraderApi.h>
 #include "enums.h"
 
 class Trader : public CThostFtdcTraderSpi

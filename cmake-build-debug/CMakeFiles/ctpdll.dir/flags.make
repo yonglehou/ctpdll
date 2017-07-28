@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++11
 
 CXX_DEFINES = -Dctpdll_EXPORTS
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/charles/sda3/CLionProjects/ctpdll/“/home/charles/sda3/CLionProjects/ctpdll” 
 

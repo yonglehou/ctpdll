@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////
 
 #pragma once
-#include </home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcMdApi.h>
+#include </home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcMdApi.h>
 #include "enums.h"
 
 class Quoter : public CThostFtdcMdSpi

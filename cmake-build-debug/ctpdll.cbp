@@ -8,42 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/charles/CLionProjects/ctpdll/cmake-build-debug"/>
+				<Option working_dir="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/charles/CLionProjects/ctpdll/cmake-build-debug"/>
+				<Option working_dir="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/charles/CLionProjects/ctpdll/cmake-build-debug"/>
+				<Option working_dir="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ctpdll">
-				<Option output="/home/charles/CLionProjects/ctpdll/cmake-build-debug/libctpdll.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/charles/CLionProjects/ctpdll/cmake-build-debug"/>
+				<Option output="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/libctpdll.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/charles/sda3/CLionProjects/ctpdll/“/home/charles/sda3/CLionProjects/ctpdll”"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -54,19 +55,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctpdll"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctpdll"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ctpdll/fast">
-				<Option output="/home/charles/CLionProjects/ctpdll/cmake-build-debug/libctpdll.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/charles/CLionProjects/ctpdll/cmake-build-debug"/>
+				<Option output="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/libctpdll.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/charles/sda3/CLionProjects/ctpdll/“/home/charles/sda3/CLionProjects/ctpdll”"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -77,41 +79,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctpdll/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/charles/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 ctpdll/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/charles/sda3/CLionProjects/ctpdll/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/charles/CLionProjects/ctpdll/enums.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/enums.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctpdll/ftdc2c_ctp.cpp">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/ftdc2c_ctp.cpp">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctpdll/ftdc2c_ctp.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/ftdc2c_ctp.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctpdll/quoter.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcMdApi.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctpdll/trader.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcTraderApi.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcMdApi.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcUserApiDataType.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcTraderApi.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcUserApiStruct.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcUserApiDataType.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/quoter.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcUserApiStruct.h">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/trader.h">
 			<Option target="ctpdll"/>
 		</Unit>
-		<Unit filename="/home/charles/CLionProjects/ctpdll/CMakeLists.txt">
+		<Unit filename="/home/charles/sda3/CLionProjects/ctpdll/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

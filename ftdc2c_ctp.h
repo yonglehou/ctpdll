@@ -9,7 +9,7 @@
 #define FTDC2C_API extern
 #define MYDECL  __attribute__((stdcall))
 
-#include </home/charles/CLionProjects/ctplib/linuxapi/ThostFtdcUserApiStruct.h>
+#include </home/charles/sda3/CLionProjects/ctpdll/linuxapi/ThostFtdcUserApiStruct.h>
 
 #ifdef __cplusplus
 extern "C" {
